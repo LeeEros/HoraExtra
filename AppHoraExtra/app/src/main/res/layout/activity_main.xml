@@ -15,7 +15,7 @@
         android:background="@color/verde">
 
         <ImageView
-            android:id="@+id/papel_tesoura"
+            android:id="@+id/calc"
             android:layout_width="0dp"
             android:layout_height="40sp"
             android:layout_weight="1"
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/text_menu2"
         android:layout_margin="12dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="24dp"
         android:layout_marginBottom="12dp"
         android:text="@string/o_c_lculo_segue_a_legisla_o_trabalhista_prevista"
         android:textAlignment="center"
