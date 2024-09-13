@@ -24,25 +24,30 @@
             android:layout_marginBottom="12dp"
             android:text="@string/insira_a_quantidade_de_horas_que_trabalhou" />
 
-
         <EditText
             android:id="@+id/edit_escolha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/_1_2_ou_3"
-            android:inputType="number"
-            android:maxLength="1"
-            android:ems="5"
+            android:inputType="numberDecimal"
             android:textAlignment="center"
             android:textSize="18sp"/>
 
+        <EditText
+            android:id="@+id/edit_valor_hora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite o valor da hora (ex: 10.0)"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textSize="18sp"/>
 
         <Button
-            android:id="@+id/button_enviar"
+            android:id="@+id/button_calcular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:text="@string/calcular"
+            android:text="Calcular"
             android:backgroundTint="@color/verde"/>
 
         <TextView
@@ -51,6 +56,6 @@
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:layout_marginTop="8dp"
-            android:text="@string/resultado"/>
+            android:text="Resultado"/>
     </LinearLayout>
 </RelativeLayout>
