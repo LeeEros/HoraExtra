@@ -4,4 +4,8 @@
     <string name="calcule_seus_proventos">Calcule seus proventos!</string>
     <string name="aplicativo_para_calcular_hora_extra">Aplicativo para calcular Hora Extra</string>
     <string name="calcular">calcular</string>
+    <string name="pr_ximo">Próximo</string>
+    <string name="insira_a_quantidade_de_horas_que_trabalhou">Insira a quantidade de horas que trabalhou:</string>
+    <string name="_1_2_ou_3">1, 2 ou 3</string>
+    <string name="resultado">resultado:</string>
 </resources>
